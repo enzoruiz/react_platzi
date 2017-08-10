@@ -28,7 +28,7 @@ function requestHandle(request, response){
     response.write(
         renderToStaticMarkup(
             <Layout
-                title="Aplicacion" 
+                title="Aplicacion"
                 content={html}
             />
         )
